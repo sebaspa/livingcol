@@ -63,7 +63,12 @@
 /drush
 /drupal.phar
 /drupal
+
+# Ignore data 
 /data
+
+# Ignore modules
+/modules/contrib/admin_toolbar
 
 ### Linux ###
 *~
