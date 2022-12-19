@@ -10,7 +10,9 @@ libraries:
   - livingcol/global-js
 regions:
   header: 'Cabecera'
-  content: 'Contenido principal'
-  footer: 'Pie de página'
-  sidebar_first: 'Barra lateral'
   main_navigation: 'Menú principal'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  content: 'Contenido principal'
+  sidebar_first: 'Barra lateral'
+  footer: 'Pie de página'
