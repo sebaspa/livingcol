@@ -67,8 +67,15 @@
 # Ignore data 
 /data
 
+# Ignore generate scripts
+/themes/custom/livingcol/css
+/themes/custom/livingcol/js
+
 # Ignore modules
 /modules/contrib/admin_toolbar
+/modules/contrib/ctools
+/modules/contrib/pathauto
+/modules/contrib/token
 
 ### Linux ###
 *~
