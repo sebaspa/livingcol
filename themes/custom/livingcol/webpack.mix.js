@@ -10,5 +10,5 @@ mix
   //.js("./src/js/main.js", "js")
   .sass("./src/scss/styles.scss", "css")
   .options({
-    postCss: [tailwindcss("./tailwind.config.js")],
+    postCss: [require("postcss-import"), tailwindcss("./tailwind.config.js")],
   });

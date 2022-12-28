@@ -69,7 +69,7 @@
 
 # Ignore generate scripts
 /themes/custom/livingcol/css
-/themes/custom/livingcol/js
+#/themes/custom/livingcol/js
 
 # Ignore modules
 /modules/contrib/admin_toolbar

@@ -4,8 +4,18 @@ global-css:
       css/styles.css: {}
 
 global-js:
-  version: 1.x
+  version: 1.0
   js:
     js/main.js: {}
   dependencies:
+    - core/drupal
     - core/jquery
+
+user-menu:
+  version: 1.0
+  js:
+    js/user-menu.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/once
