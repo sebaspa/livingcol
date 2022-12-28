@@ -11,6 +11,7 @@ libraries:
 regions:
   header: 'Cabecera'
   main_navigation: 'Menú principal'
+  user_menu: 'Menú de usuario'
   breadcrumb: Breadcrumb
   highlighted: Highlighted
   content: 'Contenido principal'

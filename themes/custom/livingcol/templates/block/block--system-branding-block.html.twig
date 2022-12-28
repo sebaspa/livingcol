@@ -14,13 +14,10 @@
  */
 #}
 {% block content %}
-  {% if site_logo %}
-    <a href="{{ path('<front>') }}" rel="home">
-      <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
+  {% if site_name %}
+    <a href="{{ path('<front>') }}" class="flex items-center">
+      <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="{{ 'Home'|t }}" />
+      <span class="self-center text-xl font-semibold whitespace-nowrap text-yellow-500">{{ site_name }}</span>
     </a>
   {% endif %}
-  {% if site_name %}
-    <a href="{{ path('<front>') }}" rel="home">{{ site_name }}</a>
-  {% endif %}
-  {{ site_slogan }}
 {% endblock %}
