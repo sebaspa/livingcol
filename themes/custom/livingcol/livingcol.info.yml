@@ -1,0 +1,19 @@
+name: LivingCol
+type: theme
+description: 'Tema para livingcol'
+core_version_requirement: ^9 || ^10
+base theme: stable9
+#Opcionales
+version: 1.0
+libraries:
+  - livingcol/global-css
+  - livingcol/global-js
+regions:
+  header: 'Cabecera'
+  main_navigation: 'Menú principal'
+  user_menu: 'Menú de usuario'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  content: 'Contenido principal'
+  sidebar_first: 'Barra lateral'
+  footer: 'Pie de página'

@@ -1,0 +1,7 @@
+.alert {
+  @apply p-4 mb-4 text-red-700 bg-red-100 rounded-lg;
+
+  a {
+    @apply block text-red-700  hover:text-red-800 hover:underline mt-2;
+  }
+}

@@ -1,0 +1,40 @@
+.login {
+  h1 {
+    @apply text-2xl md:text-3xl text-gray-900 mb-4;
+  }
+  .user-login-form {
+    .form-item {
+      @apply mb-4;
+      label {
+        @apply block mb-2 text-sm font-medium text-gray-900;
+      }
+      .description {
+        @apply text-xs mt-1 text-gray-500;
+      }
+      .form-text {
+        @apply bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block p-2.5;
+      }
+      .error {
+        @apply bg-red-50 border-red-500 text-red-900;
+      }
+    }
+    .form-actions {
+      .form-submit {
+        @apply w-full text-white bg-blue-500 hover:bg-blue-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center cursor-pointer;
+      }
+    }
+  }
+}
+
+#block-livingcol-primary-local-tasks {
+  ul {
+    li {
+      a {
+        @apply font-medium text-blue-500 hover:text-blue-600 hover:underline;
+      }
+      .is-active {
+        @apply text-gray-900 #{!important};
+      }
+    }
+  }
+}
