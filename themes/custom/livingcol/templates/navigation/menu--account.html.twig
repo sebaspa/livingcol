@@ -24,6 +24,7 @@
   We call a macro which calls itself to render the full tree.
   @see https://twig.symfony.com/doc/3.x/tags/macro.html
 #}
+{{ attach_library('livingcol/user-menu') }}
 
 {{ menus.menu_links(items, attributes, 0) }}
 
@@ -31,7 +32,7 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes }}>
+      <ul{{ attributes }} id="menu-account">
     {% else %}
       <ul>
     {% endif %}
