@@ -19,3 +19,12 @@ user-menu:
     - core/drupal
     - core/jquery
     - core/once
+
+main-menu:
+  version: 1.0
+  js:
+    js/main-menu.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/once
